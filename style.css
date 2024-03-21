@@ -1,0 +1,188 @@
+*{
+    scroll-behavior:smooth;
+}
+body{
+    background: rgb(255,94,0);
+    background: radial-gradient(ellipse at 125% 125%,#ff5e00d9,#ffb990);
+
+}
+.top-box{
+    display: inline-flex;
+    position: fixed;
+    font-family: sans-serif;
+}
+.top-box img{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.top-box h3{
+    padding-top: 5px;
+    padding-left: 2px;
+    padding-right: 400px;
+    color: white;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    display: inline-flex;
+    
+}
+.top-box a{
+    margin: 25px 55px 10px 0px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 12px;
+    text-shadow: 0px 0px 2px black;
+    border: 2px solid white;
+    align-content: center;
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+.top-box a:nth-last-child(1){
+    color: black;
+    border-style: none;
+
+    background-color: greenyellow;
+}
+.top-box a:nth-last-child(1):hover{
+    color: white;
+    background-color: orange;
+}
+.top-box a:hover{
+    background-color: white;
+    color: black;
+}
+#page{
+    background-image: url('learn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding-bottom: 5cm;
+    display: inline-flex;
+}
+#page h1{
+    padding-top: 6cm;
+    padding-left: 2cm;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    color:  rgb(255, 94, 0);
+    font-weight: bold;
+    font-family:sans-serif;
+}
+#page h3{
+    padding-left: .5cm;
+    padding-top: 8.5cm;
+    width: 6cm;
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#page img{
+    height: 20cm;
+    width: 20cm;
+    padding-left: 1cm;
+}
+#page a{
+    text-decoration: none;
+    padding-top: 11cm;
+    padding-left: .5cm;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(255, 94, 0);
+    width: 4cm;
+}
+#about{
+    background: rgb(236, 159, 5);
+    background: linear-gradient(360deg,rgba(236,159,5,1) 35%, rgba(255,78,0,1) 100%, rgba(255,171,3,1) 100%);
+    
+    height: 400px;
+}
+#about h1{
+    padding: 60px 0px 0px 100px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+#about h3{
+    padding: 60px 0px 0px 200px;
+    width: 16cm;
+    color: rgba(255, 255, 255, 0.589);
+    text-align: justify;
+    font-family: sans-serif;
+}
+#author{
+    background: rgb(236, 159, 5);
+    background: linear-gradient(360deg,rgba(236,159,5,1) 35%, rgba(255,78,0,1) 100%, rgba(255,171,3,1) 100%);
+    
+    height: 400px;
+}
+#author h1{
+    padding: 60px 0px 0px 100px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+#author h3{
+    padding: 60px 0px 0px 200px;
+    width: 16cm;
+    color: rgba(255, 255, 255, 0.589);
+    text-align: justify;
+    font-family: sans-serif;
+}
+#contact{
+    background: rgb(236, 159, 5);
+    background: linear-gradient(360deg,rgba(236,159,5,1) 35%, rgba(255,78,0,1) 100%, rgba(255,171,3,1) 100%);
+    
+    height: 400px;
+}
+#contact h1{
+    padding: 60px 0px 3cm 100px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+#contact a{
+    margin-top: 5cm;
+    padding: 0px 0px 0px 300px;
+    width: 16cm;
+    font-size: larger;
+    font-weight: bold;
+
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+#download{
+    background: rgb(236, 159, 5);
+    background: linear-gradient(360deg,rgba(236,159,5,1) 35%, rgba(255,78,0,1) 100%, rgba(255,171,3,1) 100%);
+    
+    height: 400px;
+}
+
+#download h1{
+    padding: 3cm 0px 3cm 10cm;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+
+}
+#download a{
+    margin-left: 15cm;
+    padding: 10px 20px 10px 20px;
+    text-shadow: 0px 0px 2px black;
+    text-decoration: none;
+    font-family: sans-serif;
+    border-radius: 12px;
+    background-color: greenyellow ;
+    align-content: center;
+    color: black;
+    font-weight: bold;
+}
+#download a:hover{
+    color: black;
+    background-color: white;
+}
